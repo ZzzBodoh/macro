@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "macro"
+version = "0.1.0"
+description = "Forecasting Macroeconomics"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+fredapi = "^0.5.2"
+pandas = "^2.2.2"
+numpy = "^2.1.1"
+scikit-learn = "^1.5.2"
+statsmodels = "^0.14.3"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
